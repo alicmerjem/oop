@@ -1,5 +1,4 @@
 package week6.additional;
-import java.util.*;
 
 public class Shape {
     public void draw() {
