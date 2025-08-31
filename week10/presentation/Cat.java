@@ -70,7 +70,7 @@ class Main {
         Method[] catMethods = myCat.getClass().getDeclaredMethods();
 
         try {
-                    for (Method method : catMethods) {
+            for (Method method : catMethods) {
             System.out.println(method.getName());
             // We want to invoke (call) method meow
             if (method.getName().equals("meow")) {
